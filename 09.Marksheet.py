@@ -6,5 +6,10 @@ marks3 = int(input("Enter 3rd subject marks : "))
 marks4 = int(input("Enter 4th subject marks : "))
 marks5 = int(input("Enter 5th subject marks : "))
 total = marks1 + marks2 + marks3 + marks4 + marks5
+percentage = total / 5
 
-if 
+print("\nMarks1\tMarks2\tMarks3\tMarks4\tMarks5")
+print("----------------------------------------")
+print(marks1, "\t", marks2, "\t", marks3, "\t", marks4, "\t", marks5)
+print("\nPercentage :", percentage)
+print("Result :", "Pass" if percentage > 40 else "Fail")
