@@ -1,3 +1,5 @@
+# WAP TO GET 2 NUMBER FROM THE USER AND PRINT FIBONACCI SERIESE.
+
 n1 = int(input("Enter start number: "))
 n2 = int(input("Enter end number: "))
 
