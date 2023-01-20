@@ -1,3 +1,3 @@
 # WAP TO PRINT HELLO WORLD
 
-print("Hello World");
+print("Hello World")
