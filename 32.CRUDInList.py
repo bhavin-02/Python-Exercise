@@ -14,14 +14,14 @@ def add():
 
 def update():
     print(list)
-    index = input("Enter a index which you want to update: ")
+    index = int(input("Enter a index which you want to update: "))
     value = input("Enter a value to update: ")
     list[index] = value
     print("Updated List is :", list)
 
 def delete():
     print(list)
-    index = input("Enter a index which you want to delete: ")
+    index = int(input("Enter a index which you want to delete: "))
     deleted = list.pop(index)
     print(f"Deleted value {deleted} from index {index}")
     print("List is :", list)
