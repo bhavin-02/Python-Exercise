@@ -1,4 +1,4 @@
-# WAP TO CHECK ENTERD NUMBER IS ODD OR EVEN
+# WAP TO CHECK ENTERED NUMBER IS ODD OR EVEN
 
 number = int(input("Enter a one number : "))
 if number % 2 == 0:

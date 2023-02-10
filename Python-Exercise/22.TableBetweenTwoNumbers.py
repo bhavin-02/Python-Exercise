@@ -1,4 +1,4 @@
-# WAP TO GET 2 NUMBER FROM THE USERS AND PRINT TABLE BETWEEN ALL THE NUMBRES USIGN WHILE AND FOR
+# WAP TO GET 2 NUMBER FROM THE USERS AND PRINT TABLE BETWEEN ALL THE NUMBERS USING WHILE AND FOR
 
 n1 = int(input("Enter a 1st number : "))
 n2 = int(input("Enter a 2nd number : "))
@@ -8,15 +8,15 @@ print("""
 2. Table using while loop
 """)
 
-choise = int(input("Enter your choise: "))
+choice = int(input("Enter your choice: "))
 
-if choise == 1:
+if choice == 1:
     for i in range(n1, n2+1):
         for j in range(1, 11):
             print(f"{i} * {j} = {i * j}")
         print()
 
-elif choise == 2:
+elif choice == 2:
     while n1 <= n2:
         j = 1
         while j <= 10:
@@ -26,4 +26,4 @@ elif choise == 2:
         print()
         
 else:
-    print("Enter a valid choise")
+    print("Enter a valid choice")

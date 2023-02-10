@@ -1,7 +1,7 @@
-# WAP TO GET 2 NUMBER FROM THE USER AND PRINT FIBONACCI SERIESE.
+# WAP TO GET 2 NUMBER FROM THE USER AND PRINT FIBONACCI SERIES.
 
 n1 = int(input("Enter start number: "))
-n2 = int(input("Enter end number: "))
+n2 = int(input("How many numbers you want to print?: "))
 
 for i in range(n1, n2):
     if i <= 0:

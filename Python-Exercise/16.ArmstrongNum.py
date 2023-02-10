@@ -1,12 +1,12 @@
-# WAP TO CHECK NUMBER IS AMSTRONG OR NOT
+# WAP TO CHECK NUMBER IS ARMSTRONG OR NOT
 
 n = int(input("Enter a number: "))
 pw = int(input("Enter power of number: "))
 
-sum_pow = 0
+sum = 0
 for i in str(n):
-    sum_pow += int(i)**pw
-if n == sum_pow:
+    sum += int(i)**pw
+if n == sum:
     print(n, "is armstrong number")
 else:
     print(n, "is not armstrong number")

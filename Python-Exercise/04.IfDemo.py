@@ -1,5 +1,4 @@
 # WAP TO DETERMINATE IF CONDITION
 
-a = True
-if a:
-    print("a is", a)
+if True:
+    print("Hello from if")

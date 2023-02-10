@@ -1,4 +1,4 @@
-# WAP TO GET 2 NUMBER FROM THE USER AND PRINT PELINDROME NUMBER
+# WAP TO GET 2 NUMBER FROM THE USER AND PRINT PALINDROME NUMBER
 
 n1 = int(input("Enter 1st number: "))
 n2 = int(input("Enter 2nd number: "))

@@ -1,4 +1,4 @@
-# WAP TO GET VALUE FROM THER USER AND PRINT MARKSHEET
+# WAP TO GET VALUE FROM THE USER AND PRINT MARK SHEET
 
 marks1 = int(input("Enter 1st subject marks : "))
 marks2 = int(input("Enter 2nd subject marks : "))
