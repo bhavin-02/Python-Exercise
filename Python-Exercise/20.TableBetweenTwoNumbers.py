@@ -3,10 +3,7 @@
 n1 = int(input("Enter a 1st number : "))
 n2 = int(input("Enter a 2nd number : "))
 
-print("""
-1. Table using for loop
-2. Table using while loop
-""")
+print("1. Table using for loop\n2. Table using while loop")
 
 choice = int(input("Enter your choice: "))
 
@@ -24,6 +21,6 @@ elif choice == 2:
             j += 1
         n1 += 1
         print()
-        
+
 else:
     print("Enter a valid choice")
