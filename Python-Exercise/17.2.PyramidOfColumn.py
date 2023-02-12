@@ -9,9 +9,7 @@
 
 n = int(input("Enter a number of row : "))
 
-for i in range(1, n + 1):
-    a = 0
-    for j in range(0, i):
-        a = j+1
-        print(a, end=" ")
+for i in range(n):
+    for j in range(i + 1):
+        print(j + 1, end=" ")
     print()
