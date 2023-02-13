@@ -11,9 +11,9 @@ while True:
 
     elif choice == 2:
         length = int(input("Enter a length of dictionary: "))
-        for i in range(1, length+1):
-            key = input(f"Enter element {i} key: ")
-            value = input(f"Enter element {i} value: ")
+        for i in range(length):
+            key = input(f"Enter element {i + 1} key: ")
+            value = input(f"Enter element {i + 1} value: ")
             dictionary[key] = value
         print("Dictionary is :", dictionary)
         print()
